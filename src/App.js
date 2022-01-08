@@ -1,12 +1,17 @@
+import "bootstrap/dist/css/bootstrap.min.css"
 import "./assets/css/App.css"
-import Hello from './components/hello.js';
+
+import Login from './components/auth/Login'
+
 function App() {
-  return (
-    <div className="App">
-      Hello react
-      <Hello />
-    </div>
-  );
+    return ( <
+        div className = "App" >
+        <
+        Login / >
+        <
+        /div>
+
+    );
 }
 
 export default App;
